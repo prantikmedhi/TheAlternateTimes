@@ -6,19 +6,41 @@
     <title>Our Team - The Alternate Time's</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body class="bg-gray-900 text-white">
-    <header class="bg-black bg-opacity-80 backdrop-blur-md fixed top-0 left-0 right-0 z-50">
-        <nav class="container mx-auto px-6 py-4">
-            <ul class="flex justify-center space-x-8">
-                <li><a href="index.html" class="text-white hover:text-gray-300 transition-colors">Home</a></li>
-                <li><a href="index.html#about" class="text-white hover:text-gray-300 transition-colors">About</a></li>
-                <li><a href="index.html#music" class="text-white hover:text-gray-300 transition-colors">Projects</a></li>
-                <li><a href="team.html" class="text-white hover:text-gray-300 transition-colors">Team</a></li>
-                <li><a href="index.html#contact" class="text-white hover:text-gray-300 transition-colors">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-80 backdrop-blur-md">
+    <nav class="container mx-auto px-6 py-4">
+        <ul class="flex justify-center space-x-8">
+            <li id="nav-home" class="nav-item">
+                <a href="#home" class="text-white text-2xl transition-all">
+                    <i class="fas fa-home"></i>
+                </a>
+            </li>
+            <li id="nav-about" class="nav-item">
+                <a href="#about" class="text-white text-2xl transition-all">
+                    <i class="fas fa-headphones-alt"></i>
+                </a>
+            </li>
+            <li id="nav-music" class="nav-item">
+                <a href="#music" class="text-white text-2xl transition-all">
+                    <i class="fas fa-music"></i>
+                </a>
+            </li>
+            <li id="nav-team" class="nav-item">
+                <a href="#team" class="text-white text-2xl transition-all">
+                    <i class="fas fa-users"></i>
+                </a>
+            </li>
+            <li id="nav-contact" class="nav-item">
+                <a href="#contact" class="text-white text-2xl transition-all">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
     <main class="container mx-auto px-6 pt-24 pb-12">
         <h1 class="text-4xl font-bold mb-12 text-center">Our Team</h1>
